@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Bank Safe</title>
+   <!-- Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!--CSS File-->
+  <link rel="stylesheet" href="style.css">
+  <!--Fonts Awesome-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karma" rel="stylesheet">
+</head>
+<body>
+     <header>
+        <h1>Bank Safe</h1>
+    </header>
+
+     <!--Main Content-->
+
+      <!--left hand-->
+      <div id="left">
+        <section class="bankStatement" id="checking">
+          <div class="container-fluid">
+              <h1>Checking Account</h1>
+              <span></span>
+            <div class="depositBlock">
+            <div class="item_list" id="deposit">
+                <div class="row">
+                  <div class="col-8">
+                    <div class="item_title">
+                      Initial Deposit
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="item_value">
+                        200
+                    </div>
+                </div>          
+              </div> 
+            </div>
+        </div>
+
+          <div class="withdrawBlock">
+    <!--      <div class="item_list" id="withdraw">
+                <div class="row">
+                  <div class="col-8">
+                    <div class="item_title">
+                      Electric Bill
+                      </div>
+                </div>
+                
+                <div class="col-4">
+                      <div class="item_value">
+                            2,500
+                        </div>
+                </div>          
+              </div> 
+            </div>
+          </div> -->
+        </div>
+    </section>
+
+      <div class="total">
+          Total:$<span class="tot"></span>
+      </div>
+    </div>
+
+   <!--right section-->
+    <div id="right">
+      <section class="dep">
+         <h3>Deposit:</h3>
+          <input type="text" class="debName" placeholder="description"><br><br>
+          <input type="number" class="debCost" placeholder="enter value"><br>
+          <button type="button" class="addTo">Deposit</button>
+      </section>
+
+      <section class="wid">
+            <h3>Withdraw:</h3>
+             <input type="text" class="widName" placeholder="description"><br><br>
+             <input type="number" class="widCost" placeholder="enter value"><br>
+             <button type="button" class="takeFrom">Withdraw</button>
+         </section>
+   </div>
+
+
+
+
+
+
+
+
+</body>
+
+
+<!--Bootstrap JS JQuery-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ <!--Personal JS File-->
+ <script src="app2.js"></script>
+</body>
+</html>

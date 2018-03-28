@@ -1,0 +1,103 @@
+*{
+   margin:0;
+   padding:0;
+}
+
+body{
+   background:#f1f1f1;
+}
+
+header{
+   text-align:center;
+   color:#fff;
+   background:#4C4CFF;
+   padding: 25px 0;
+}
+
+.bankStatement{
+   padding:50px;
+   width:50%;
+   height:auto;
+   margin-top:40px; 
+}
+
+.bankStatement h1{
+   color:#4C4CFF;;
+}
+
+.item_list{
+   border-bottom: 3px solid #ccc;
+   padding-top:20px;
+   
+}
+
+button{
+   color:#fff;
+   background:#4C4CFF;
+   padding:6px 10px;
+   cursor: pointer;
+   margin-left:30px;
+}
+
+button:hover{
+   color:#4C4CFF;
+   background:#B2B2FF;
+}
+
+
+.item_list{
+   background:#fff;
+}
+
+#deposit{
+   font-style: italic;
+}
+#deposit .item_value{
+   color:green;
+}
+
+#widthdraw.item_title {
+   font-weight: bolder;
+}
+#withdraw .item_value{
+   color:red;
+}
+
+.total{
+   padding-top:20px;
+   background:#DFE3EE;
+   width: 10%;
+   height:60px;
+   margin-left:35vw;
+   margin-top:10px;
+}
+
+#left{
+}
+
+#right{
+   margin-left:60vw;
+   margin-top:-40vh;
+   background:#fff;
+   width:400px;
+   height:400px;
+   
+}
+
+#right .dep,
+.wid{
+   padding-left:70px;
+   padding-top: 20px;
+}
+
+.dep h3, .wid h3{
+   color:#4C4CFF;
+}
+
+.bankStatement h1{
+   background:#e7e7e7;
+}
+
+input[type=text]{
+   background:#B2B2FF;
+}
