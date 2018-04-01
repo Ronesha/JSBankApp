@@ -27,7 +27,7 @@
         <section class="bankStatement" id="checking">
           <div class="container-fluid">
               <h1>Checking Account</h1>
-              <span></span>
+              <span class="alert"></span>
             <div class="depositBlock">
             <div class="item_list" id="deposit">
                 <div class="row">
@@ -74,15 +74,15 @@
     <div id="right">
       <section class="dep">
          <h3>Deposit:</h3>
-          <input type="text" class="debName" placeholder="description"><br><br>
-          <input type="number" class="debCost" placeholder="enter value"><br>
+          <input type="text" pattern="[A-Za-z]" class="debName" id="dName" placeholder="description" required><br><br>
+          <input type="number" class="debCost" id="dCost" placeholder="enter value" required><br>
           <button type="button" class="addTo">Deposit</button>
       </section>
 
       <section class="wid">
             <h3>Withdraw:</h3>
-             <input type="text" class="widName" placeholder="description"><br><br>
-             <input type="number" class="widCost" placeholder="enter value"><br>
+             <input type="text" pattern="[A-Za-z]" class="widName" id="wName" placeholder="description" required><br><br>
+             <input type="number" class="widCost" id="wCost" placeholder="enter value" required><br>
              <button type="button" class="takeFrom">Withdraw</button>
          </section>
    </div>
